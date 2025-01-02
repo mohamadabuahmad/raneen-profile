@@ -9,14 +9,14 @@ const Home = () => {
         <div className="hero-content">
           {/* Profile Picture */}
           <img src="/profile_pic.jpg" alt="Mohamad Abu Ahmad" className="profile-picture" />
-          <h1 className="hero-title">Hi, I'm Mohamad Abu Ahmad</h1>
-          <p className="hero-subtitle">Software Engineering Student | Full Stack Developer</p>
+          <h1 className="hero-title">Hi, I'm Raneen Shammout</h1>
+          <p className="hero-subtitle">Biotechnology Engineering Student </p>
           <div className="hero-buttons">
-            <a href="/apps" className="hero-button">View My Apps</a>
+          <a href="/CV.pdf" download className="cv-download-button">Download My CV</a>
+
             <a href="/contact" className="hero-button hero-button-outline">Contact Me</a>
           </div>
           {/* Download CV Button */}
-          <a href="/CV.pdf" download className="cv-download-button">Download My CV</a>
         </div>
       </section>
 
@@ -24,29 +24,19 @@ const Home = () => {
       <section className="about-preview">
         <h2>About Me</h2>
         <p>
-          I am a passionate Software Engineering student with a focus on developing robust and innovative software solutions. With a strong foundation in back-end development, I aim to enhance user experiences through intuitive and efficient system design.
+        Driven Biotechnological Engineer with a deep passion for revolutionizing healthcare and sustainability through innovative research, cutting-edge technology, and impactful problem-solving
         </p>
         <a href="/about" className="about-read-more">Read More</a>
       </section>
 
       {/* Featured Apps Section */}
-      <section className="featured-apps">
-        <h2>Featured Apps</h2>
-        <div className="apps-grid">
-          <div className="app-card">
-            <h3>Car Info App</h3>
-            <p>
-              An innovative app that allows users to find detailed information about cars by entering the car number.
-            </p>
-            <a href="/apps" className="app-link">Learn More</a>
-          </div>
-        </div>
-      </section>
+
 
       {/* Skills Overview Section */}
       <section className="skills-overview">
         <h2>My Skills</h2>
-        <p>Full Stack Development, Java, Python, JavaScript, SQL, Node.js, and more.</p>
+        <p>Conducting laboratory tests,Ability to operate laboratory equipment ... </p>
+        <a href="/about" className="about-read-more">Read More</a>
       </section>
 
       {/* Contact Preview Section */}

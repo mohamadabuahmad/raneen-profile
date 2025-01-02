@@ -58,7 +58,7 @@ const Contact = () => {
       </form>
 
       {/* Direct Mail Link */}
-      <a href="mailto:mohamadadm25@gmail.com" className="mail-link">Or send me an email directly</a>
+      <a href="mailto:Raneenshammout551@gmail.com" className="mail-link">Or send me an email directly</a>
     </div>
   );
 };
